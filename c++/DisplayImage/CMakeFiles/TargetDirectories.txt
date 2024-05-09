@@ -1,3 +1,0 @@
-/mnt/c/Users/maras/Desktop/Dev Projects/cv-mlmastery/c++/DisplayImage/CMakeFiles/DisplayImage.dir
-/mnt/c/Users/maras/Desktop/Dev Projects/cv-mlmastery/c++/DisplayImage/CMakeFiles/edit_cache.dir
-/mnt/c/Users/maras/Desktop/Dev Projects/cv-mlmastery/c++/DisplayImage/CMakeFiles/rebuild_cache.dir
