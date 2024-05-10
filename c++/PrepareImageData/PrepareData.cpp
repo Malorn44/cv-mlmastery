@@ -13,6 +13,11 @@ int main(int argc, char** argv ) {
     Mat image;
     image = imread( argv[1], IMREAD_COLOR );
     
+    if ( !image.data ) {
+        printf("No image data \n");
+        return -1;
+    }
+
     printf("=== Confirming Range ===\n");
 
     // rows, cols and channels
@@ -52,6 +57,6 @@ int main(int argc, char** argv ) {
     }
     minMaxLoc(image, &min, &max);
     printf("Min: %.3f, Max: %.3f\n",min,max);
-    
+
     return 0;
 }
